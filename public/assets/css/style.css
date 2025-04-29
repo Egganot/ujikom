@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "HalcyonBold";
+    src: url("/assets/font/Fontspring-DEMO-halcyon-bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh; /* ubah dari height: 100% */
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.body-wrapper {
+    flex: 1 0 auto;
+    background: rgba(225, 255, 255, 0.8);
+}
+
+.footer-wrapper {
+    flex-shrink: 0;
+}
+
+.navbar {
+    background: #074799;
+    color: #fff;
+}
+
+.navbar:hover {
+    color: #ddd;
+}
+
+.logo-title {
+    font-family: "HalcyonBold", sans-serif;
+}
+
+/* .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+} */
+
+a {
+    text-decoration: none;
+}
+
+/* .card a {
+    gap: 5px;
+    color: black;
+} */
+
+.card-header {
+    background: rgb(35, 25, 3);
+    /* color: #fff;
+    align-content: center;
+    height: 80px; */
+}
+
+/* .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+    object-fit: scale-down;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.card-body {
+    background: #e1ffbb;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+thead {
+    background: #009990;
+}
+
+.table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.thead {
+    background-color: #009990;
+    color: #ffffff;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+footer {
+    background: #074799;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social-media {
+    margin-top: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+.social-icon {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icon:hover {
+    color: #ddd;
+}
